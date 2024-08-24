@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+main{
+    background-image: url('assets/bgforest.png');
+    background-position: center;
+    background-size: cover; 
+}
+
+button{
+    transition-duration: 300ms;
+}
+button:active{
+    background:rgb(42, 247, 42)
+}
