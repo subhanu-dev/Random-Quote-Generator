@@ -6,7 +6,6 @@ const apiurl= 'https://api.quotable.io/quotes/random';
 
 
 
-
 function getQuote(){
   fetch(apiurl)
   .then((data)=> data.json())
